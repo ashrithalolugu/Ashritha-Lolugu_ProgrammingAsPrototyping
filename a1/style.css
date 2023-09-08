@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#images{
+    width: 300px;
+}
+
+#tablerows{
+   text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 2px solid black;
+    padding: 1px;
+    text-align: center;
+  }
+
+#boxsizes{
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+td{
+    font-size: larger;
+}
